@@ -1,0 +1,51 @@
+.main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.m-auto {
+    margin: auto !important;
+}
+/*===== FORM START =====*/
+form {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+label {
+    display: block;
+}
+input, select, textarea {
+    border-width: 1px;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+input[type='radio'] {
+    width: initial;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.radio-wrapper {
+    display: flex;
+    align-items: center;
+}
+input[type='email'] {
+}
+
+select {
+
+}
+textarea {
+    resize: vertical;
+}
+.error {
+    color: red;
+    border-color: red;
+}
+/*===== FORM END =====*/
+.pagination-wrapper a {
+    margin-right: 10px;
+}
